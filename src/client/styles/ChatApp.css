@@ -1,0 +1,140 @@
+.container {
+  transform: translate(0px, 0px);
+  z-index: 101;
+  height: 400px;
+  width: 375px;
+  border: 2px #f4f4f4 solid;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+Dialog header {
+  background: var(--terra-dialog-header-background-color,#96c56f);
+}
+.dialogTitle{
+  transform: translate(0px , 0px);
+  right: 0;
+  bottom: 0;
+}
+.dialogTitle Button {
+  float:right;
+}
+.ui-dialog {
+  height: 300px;
+  width: 500px;
+  transform: translate(0px,0px);
+}
+.dialogFooter {
+  border-bottom: 2px #f4f4f4 solid;
+  border-left: 2px #f4f4f4 solid;
+  border-right: 2px #f4f4f4 solid;
+  background-color: white;
+}
+
+
+.dialogBody {
+  transform: translate(0px, 0px);
+  right: 0;
+  bottom: 0;
+}
+
+.dialogBG {
+  background-color: white;
+
+}
+
+.messages {
+  flex-grow: 1;
+  padding: 20px;
+  word-wrap: break-word;
+
+}
+
+.MessageContainer {
+
+}
+Button {
+  display: flex-end;
+
+}
+h3 {
+  padding: 5px;
+  text-align-last: left;
+  margin: 0;
+  color: black;
+  font-size: 23px;
+  font-weight: 600;
+  right: 0;
+}
+
+.chat-input {
+  position: relative;
+  overflow: hidden;
+  padding: 0 40px;
+  flex-shrink: 0;
+  word-wrap: break-word;
+}
+
+.chat-input Textarea[type="text"] {
+  width: 100%;
+  margin-left: -20px;
+  margin-right: -0px;
+}
+.chat-input Textarea {
+  border-color: white;
+}
+.chat-input Button {
+  display: flex-end;
+}
+.sendStyling {
+  margin-bottom: 5px;
+  border-radius: var(--terra-button-action-border-radius, 4rem);
+}
+
+.sendStyling .sendButton {
+  height: var(--terra-button-icon-height, 1.8rem);
+  width: var(--terra-button-icon-width, 2.4rem);
+}
+.message.from-me .username {
+  display: flex-end;
+}
+
+.message.from-me {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
+
+.message.from-me .message-body {
+  background-color: #f4f4f4;
+  color: black;
+  word-wrap: break-word;
+  font-size: 16px;
+}
+
+.message {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  font-size: 19px;
+}
+.message-body {
+  max-width: 50%;
+  display: inline-block;
+  padding: 20px;
+  background-color: #eee;
+  border: 1px;
+  border-radius: 5px;
+  padding-right: 50px;
+  word-wrap: break-word;
+  font-size: 12px;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #999;
+  margin-bottom: 5px;
+  padding-left: 10px
+}

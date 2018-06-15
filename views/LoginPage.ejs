@@ -1,0 +1,96 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+        body{
+            padding-top: 5%;
+        }
+        input{
+            width: 280px;
+            height: 30px;
+        }
+        div {
+            background: gainsboro;
+            text-align: center;
+            width: 300px;
+            height: 150px;
+            margin: 45px auto;
+            padding-top: 40px;
+            padding-bottom: 220px;
+        }
+
+        img {
+            padding-bottom: 10px;
+        }
+        p.msg{
+            padding-left: 3px;
+            color: red;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        header{
+            position: absolute;
+            color: white;
+            background: linear-gradient(to right, rgb(169, 219, 128) 0%, rgb(150, 197, 111) 100%);
+            width: 100%;
+            padding: 1em;
+            text-align: left;
+            top: 0;
+            font-size: 10px;
+        }
+
+        .field-icon {
+            float: right;
+            margin-left: -25px;
+            margin-top: -25px;
+            position: relative;
+            z-index: 2;
+        }
+
+        footer {
+            position: absolute;
+            color: white;
+            background-color: #428BCA;
+            width: 100%;
+            padding: 1em;
+            text-align: left;
+            bottom: 0;
+            font-size: 16px;
+        }
+
+        .btn-primary {
+            color: white;
+            background: dodgerblue;
+        }
+    </style>
+</head>
+<body>
+<script src="/build/bundle.js"></script>
+<header>
+    <h1>DevAcademy Tracker Tool</h1>
+</header>
+<div>
+    <form action="" method="post">
+        <img src='../../../Cerner_Logo.svg' height='70px' width='120px' align='center'></img>
+        <br/>
+        <input type="text" name="username" width="30" placeholder=" Associate ID"/>
+        <br/>
+        <br/>
+        <input id="password" type="password" name="password" placeholder=" Password"/>
+        <br/>
+        <br/>
+        <input type="submit" value="Login" class="btn-primary"></input>
+        <br/>
+        <br/>
+    </form>
+</div>
+<% if (message){
+    %><p class="msg"><%= message %></p><%
+}%>
+</body>
+
+<footer> &copy; Cerner Corporation All Rights Reserved</footer>
+
+</html>

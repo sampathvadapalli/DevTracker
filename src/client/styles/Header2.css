@@ -1,0 +1,5 @@
+:local(.ButtonIconStyling) {
+  height: var(--terra-button-icon-height, 2.5rem);
+  width: var(--terra-button-icon-width, 1.3rem);
+  color: var(--terra-button-color-de-emphasis, #0059a8);
+}

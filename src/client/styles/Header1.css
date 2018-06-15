@@ -1,0 +1,21 @@
+:local(.UsernamebuttonStyling) {
+  font-size: 25px;
+  font-weight: 500;
+  background-color: #f4f4f4;
+  border-color: #f4f4f4;
+
+}
+:local(.settingsIconStyling) {
+  height: var(--terra-button-icon-height, 2.5rem);
+  width: var(--terra-button-icon-width, 1.3rem);
+  color: var(--terra-button-color-de-emphasis, #0059a8);
+}
+:local(.logoStyling) {
+  max-height: 160%;
+  max-width: 100%;
+}
+
+:local(.dropdownClasses) {
+  top: 0 !important;
+  margin-top: -22.9rem;
+}

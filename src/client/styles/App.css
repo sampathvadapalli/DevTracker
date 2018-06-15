@@ -1,0 +1,18 @@
+.optionsContainer{
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  transform: translate3d(11px, 0px, 0px);
+}
+.optionsContainer1{
+  position: relative;
+  top: 0;
+  z-index: 0;
+  transform: translate3d(11px, 1px, 0px);
+}
+.optionsContainer2{
+  position: relative;
+  top: 0;
+  z-index: 0;
+  transform: translate3d(11px, 2px, 0px);
+}

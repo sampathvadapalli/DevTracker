@@ -1,0 +1,11 @@
+.select_position {
+  position: relative;
+  z-index: 3;
+}
+.select-box {
+  font-size: 17px;
+  border-radius: 1px solid #dedfe0;
+  width: 125px;
+  height: 30px;
+
+}

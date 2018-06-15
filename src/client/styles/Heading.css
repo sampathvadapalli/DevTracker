@@ -1,0 +1,13 @@
+.headingBody {
+  padding-top: 5%;
+}
+.headingText {
+  position: absolute;
+  color: white;
+  background: linear-gradient(to right, rgb(169, 219, 128) 0%, rgb(150, 197, 111) 100%);
+  width: 100%;
+  padding: 1em;
+  text-align: left;
+  top: 0;
+  font-size: 20px;
+}
