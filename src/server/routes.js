@@ -9,7 +9,7 @@ var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
 var session = require('express-session');
 var client = ldap.createClient({
-    url: 'ldap://ldap.northamerica.cerner.net:389',
+    url: '',
     reconnect: true,
 });
 var axios = require('axios');
